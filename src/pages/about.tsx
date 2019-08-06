@@ -16,7 +16,7 @@ export default class Tags extends React.Component<Props> {
     return (
       <Layout title={siteTitle}>
         <Head title="All tags" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
-        <article>About Jeff Rafter...</article>
+        <article>About Clarke Swiedler...</article>
       </Layout>
     )
   }
