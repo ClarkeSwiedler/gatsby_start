@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths",
+    "dev": "gatsby develop"
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-helmet": "^5.0.9",
+    "@types/styled-components": "^4.1.18",
+    "babel-plugin-styled-components": "^1.10.6",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.13.51",
+    "gatsby-image": "^2.2.8",
+    "gatsby-plugin-canonical-urls": "^2.1.2",
+    "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.1.3",
+    "gatsby-plugin-sharp": "^2.2.9",
+    "gatsby-plugin-styled-components": "^3.1.2",
+    "gatsby-remark-copy-linked-files": "^2.1.4",
+    "gatsby-remark-images": "^3.1.7",
+    "gatsby-remark-prismjs": "^3.3.4",
+    "gatsby-remark-responsive-iframe": "^2.2.4",
+    "gatsby-remark-smartypants": "^2.1.2",
+    "gatsby-source-filesystem": "^2.1.8",
+    "gatsby-transformer-json": "^2.2.2",
+    "gatsby-transformer-remark": "^2.6.10",
+    "gatsby-transformer-sharp": "^2.2.5",
+    "prism-themes": "^1.1.0",
+    "prismjs": "^1.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.3"
+  }
+}
