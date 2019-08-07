@@ -2,15 +2,15 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Mendel',
-    description: 'This is the Mendel Rewards Website',
+    title: 'Clarke Swiedler',
+    description: 'Instructions, tutorials, and memos',
     siteUrl: 'http://mendelrewards.com',
     author: {
       name: 'Clarke Swiedler',
       email: 'Clarke@swiedler.com',
     }
   },
-  plugins : [
+  plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {

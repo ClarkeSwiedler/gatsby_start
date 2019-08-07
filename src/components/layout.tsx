@@ -1,6 +1,6 @@
 import React from 'react'
-import {Link} from 'gatsby'
-import {GlobalStyle, styled} from '../styles/theme'
+import { Link } from 'gatsby'
+import { GlobalStyle, styled } from '../styles/theme'
 
 const StyledNav = styled.nav`
   ul {
@@ -29,7 +29,7 @@ interface Props {
 
 export default class Layout extends React.Component<Props> {
   render() {
-    const {children} = this.props
+    const { children } = this.props
 
     return (
       <>
@@ -37,7 +37,7 @@ export default class Layout extends React.Component<Props> {
         <StyledNav className="navigation">
           <ul>
             <li>
-              <Link to={`/`}>&</Link>
+              <Link to={`/`}>All Posts</Link>
             </li>
             <li>
               <Link to={`/tags`}>Tags</Link>
