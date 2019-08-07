@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths",
+    "deploy": "gatsby build && node ./scripts/deploy",
     "dev": "gatsby develop"
   },
   "license": "ISC",
